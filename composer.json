@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ReportAutomator",
+    "type": "magento-module",
+    "license": "commercial",
+    "homepage": "",
+    "description": "The Reporting Automator lets you automate sending Magento store reports as email attachments or via FTP distribution.",
+    "authors": [
+    {
+        "name": "Graham Lubie",
+        "email": "graham.lubie@accorin.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
