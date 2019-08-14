@@ -4,7 +4,7 @@
  * Created by PhpStorm.
  * User: marcosegura
  */
-class Accorin_ReportAutomator_Adminhtml_ReportController extends Mage_Adminhtml_Controller_Action
+class Accorin_ReportAutomator_Adminhtml_Reportautomator_ReportController extends Mage_Adminhtml_Controller_Action
 {
     public function indexAction()
     {

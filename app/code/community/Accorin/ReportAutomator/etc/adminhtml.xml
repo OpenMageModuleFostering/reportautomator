@@ -6,7 +6,7 @@
                 <reportautomator translate="title">
                     <title>Report Automator</title>
                     <sort_order>0</sort_order>
-                    <action>reportautomator/adminhtml_report</action>
+                    <action>adminhtml/reportautomator_report</action>
                 </reportautomator>
             </children>
         </system>

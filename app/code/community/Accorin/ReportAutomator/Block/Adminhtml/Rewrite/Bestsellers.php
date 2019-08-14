@@ -18,7 +18,7 @@ class Accorin_ReportAutomator_Block_Adminhtml_Rewrite_Bestsellers extends Mage_A
             'label'     => Mage::helper('reports')->__('Show Report'),
             'onclick'   => 'filterFormSubmit()'
         ));
-        $postBackUrl = $this->getUrl('reportautomator/adminhtml_report/schedule');
+        $postBackUrl = $this->getUrl('adminhtml/reportautomator_report/schedule');
         $this->addButton('reportautomator_button', array(
             'label'     => Mage::helper('reports')->__('Schedule this'),
             'onclick'   => "scheduleThis('".$postBackUrl."','10')"

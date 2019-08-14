@@ -13,7 +13,7 @@ class Accorin_ReportAutomator_Block_Adminhtml_Rewrite_ReviewCustomer extends Mag
         $this->_headerText = Mage::helper('reports')->__('Customers Reviews');
         parent::__construct();
         $this->_removeButton('add');
-        $postBackUrl = $this->getUrl('reportautomator/adminhtml_report/schedule');
+        $postBackUrl = $this->getUrl('adminhtml/reportautomator_report/schedule');
         $this->addButton('reportautomator_button', array(
             'label'     => Mage::helper('reports')->__('Schedule this'),
             'onclick'   => "scheduleThis('".$postBackUrl."','21')"

@@ -12,7 +12,7 @@ class Accorin_ReportAutomator_Block_Adminhtml_Rewrite_Orders extends Mage_Adminh
         $this->_headerText = Mage::helper('reports')->__('Customers by number of orders');
         parent::__construct();
         $this->_removeButton('add');
-        $postBackUrl = $this->getUrl('reportautomator/adminhtml_report/schedule');
+        $postBackUrl = $this->getUrl('adminhtml/reportautomator_report/schedule');
         $this->addButton('reportautomator_button', array(
             'label'     => Mage::helper('reports')->__('Schedule this'),
             'onclick'   => "scheduleThis('".$postBackUrl."','17')"

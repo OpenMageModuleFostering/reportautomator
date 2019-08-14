@@ -3,11 +3,11 @@
     "type": "magento-module",
     "license": "commercial",
     "homepage": "",
-    "description": "The Reporting Automator lets you automate sending Magento store reports as email attachments or via FTP distribution.",
+    "description": "Lets you automate sending Magento store reports as email attachments or via FTP distribution.",
     "authors": [
     {
-        "name": "Graham Lubie",
-        "email": "graham.lubie@accorin.com"
+        "name": "Marco Segura",
+        "email": "marcos@accorin.com"
     }
 ],
     "suggest": {

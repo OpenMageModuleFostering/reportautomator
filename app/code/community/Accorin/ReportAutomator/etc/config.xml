@@ -102,13 +102,13 @@
     </crontab>
     <admin>
         <routers>
-            <reportautomator>
-                <use>admin</use>
-                <args>
-                    <module>Accorin_ReportAutomator</module>
-                    <frontName>reportautomator</frontName>
-                </args>
-            </reportautomator>
+            <adminhtml>
+				<args>
+					<modules>
+						<reportautomator before="Mage_Adminhtml">Accorin_ReportAutomator_Adminhtml</reportautomator>
+					</modules>
+				</args>
+			</adminhtml>
         </routers>
     </admin>
 </config>

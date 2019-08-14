@@ -1,12 +1,26 @@
 <?xml version="1.0"?>
 <layout>
-    <reportautomator_adminhtml_report_index>
+    <adminhtml_reportautomator_report_index>
         <reference name="content">
             <block type="reportautomator/adminhtml_report" name="reportautomator"/>
         </reference>
-    </reportautomator_adminhtml_report_index>
+    </adminhtml_reportautomator_report_index>
 
-    <reportautomator_adminhtml_report_edit>
+    <adminhtml_reportautomator_report_edit>
+        <reference name="head">
+            <action method="addJs">
+                <file>accorin/reportautomator/jsoneditor.min.js</file>
+            </action>
+            <action method="addJs">
+                <file>accorin/reportautomator/reportautomator-edit.js</file>
+            </action>
+            <action method="addCss">
+                <name>jsoneditor.css</name>
+            </action>
+        </reference>
+    </adminhtml_reportautomator_report_edit>
+
+    <default>
         <reference name="head">
             <action method="addJs">
                 <script>accorin/reportautomator/jquery-1.8.2.min.js</script>
@@ -15,14 +29,8 @@
                 <script>accorin/reportautomator/jquery.noConflict.js</script>
             </action>
             <action method="addJs">
-                <file>accorin/reportautomator/jsoneditor.min.js</file>
-            </action>
-            <action method="addJs">
                 <file>accorin/reportautomator/reportautomator.js</file>
             </action>
-            <action method="addCss">
-                <name>jsoneditor.css</name>
-            </action>
         </reference>
-    </reportautomator_adminhtml_report_edit>
+    </default>
 </layout>

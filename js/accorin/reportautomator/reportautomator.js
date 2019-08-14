@@ -2,10 +2,6 @@
  * Created by Marco Segura on 8/7/15.
  */
 
-varienGlobalEvents.attachEventHandler('formSubmit', function (arg) {
-    $('template_hidden').value = editor.getText();
-});
-
 function scheduleThis(url, report_id) {
 
     url = url + "?report_id=" + report_id;
